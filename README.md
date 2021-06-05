@@ -18,8 +18,12 @@ sudo reboot
 ```
 Install packages
 ```
-sudo apt-get install python3 python3-pip
+sudo apt-get install python3 python3-pip i2c-tools
 pip3 install smbus2
+```
+Check if your sensor is detected
+```
+sudo i2cdetect -y -r 1 
 ```
 run script in command line
 ```
