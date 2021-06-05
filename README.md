@@ -29,3 +29,11 @@ run script in command line
 ```
 python3 script.py
 ```
+
+# Directly communicate with a SFM3019 using i2c tools
+```
+i2cdetect  -y 1
+i2cset -y 1 0x2e 0x36 0x61
+i2ctransfer -y 1 w3@0x2e 0x36 0x61 r9
+i2ctransfer -y 1 w1@0x2e 0x00 r9
+```
