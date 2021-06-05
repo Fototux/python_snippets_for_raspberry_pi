@@ -3,6 +3,7 @@ Should run on all Raspberry Pi verisons, tested on Pi Model 3 B + and Model 4
 
 # Prepare Raspberry Pi Environment
 Open Terminal respectively your command line tool
+
 Update
 ```
 sudo apt-get update && sudo apt-get upgrade
